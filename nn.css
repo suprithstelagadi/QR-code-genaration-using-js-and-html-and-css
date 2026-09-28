@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+ * {
+    margin: 0%;
+    padding: 0%;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 400px;
+        height: 600px;
+        border:1px solid black;
+        padding: 30px 20px;
+         align-items: center;
+         justify-content: center;
+        input{
+            font-size: 22px;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        #sub{
+            width: 100px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 5px;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+            display: none;  
+        }
+    }
+} 
